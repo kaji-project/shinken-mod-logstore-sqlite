@@ -1,5 +1,9 @@
-shinken-mod-logstore-sqlite (1.4.1-1) UNRELEASED; urgency=medium
+shinken-mod-logstore-sqlite (1.4.1-1) unstable; urgency=medium
 
   * New upstream version 1.4.1
+  * Add replaces shinken-module-broker-livestatus-sqlite
+  * Add custom config files
+  * Closes: #745458
 
- -- Thibault Cohen <tcohen@tcohen-pc.mtl.sfl>  Mon, 18 Aug 2014 16:21:04 -0400
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Wed, 20 Aug 2014 10:43:53 -0400
+
