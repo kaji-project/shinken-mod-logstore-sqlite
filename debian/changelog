@@ -1,9 +1,11 @@
 shinken-mod-logstore-sqlite (1.4.1-1) unstable; urgency=medium
 
+  [ Thibault Cohen ]
   * New upstream version 1.4.1
   * Add replaces shinken-module-broker-livestatus-sqlite
   * Add custom config files
   * Closes: #760240
+  [ Mathieu Parent ]
+  * Architecture: all
 
- -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Wed, 20 Aug 2014 10:43:53 -0400
-
+ -- Mathieu Parent <sathieu@debian.org>  Thu, 11 Sep 2014 22:10:49 +0200
