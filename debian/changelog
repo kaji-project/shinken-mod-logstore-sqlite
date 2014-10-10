@@ -1,3 +1,9 @@
+shinken-mod-logstore-sqlite (1.4.1-1.kaji1) unstable; urgency=medium
+
+  * Kaji release
+
+ -- Thibault Cohen <titilambert@titilambert.org>  Fri, 10 Oct 2014 00:45:13 -0400
+
 shinken-mod-logstore-sqlite (1.4.1-1) unstable; urgency=medium
 
   [ Thibault Cohen ]
