@@ -10,7 +10,7 @@ Source0:	%{name}_%{version}.orig.tar.gz
 
 BuildArch:  noarch
 
-Requires:	shinken-livestatus >= 1.0
+Requires:	shinken-mod-livestatus >= 1.0
 
 %description
 Shinken Logstore Sqlite submodule for Livestatus (Broker)
@@ -39,8 +39,7 @@ install -pm0755 etc/modules/* %{buildroot}/etc/shinken/modules
 /usr/share/pyshared/shinken/modules/logstore-sqlite
 %config(noreplace) %{_sysconfdir}/shinken/modules/
 
-%docdir
-%{_docdir}/%{name}
+%doc %{_docdir}/%{name}
 
 
 %changelog
