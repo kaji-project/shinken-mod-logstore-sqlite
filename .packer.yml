@@ -1,0 +1,4 @@
+distro:
+  - centos_6
+spec: debian/shinken-mod-logstore-sqlite.spec
+debian: debian
